@@ -1,5 +1,5 @@
 import "./SamsungNavbar.scss";
-import { russianCities } from "/src/utils/russiacity";
+import { russianCities } from "../../../utils/russiacity"; 
 import { Select } from 'antd';
 const SamsungNavbar = () => {
   return (

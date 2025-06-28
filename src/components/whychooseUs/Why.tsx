@@ -1,6 +1,4 @@
-import React from "react";
-import "./Why.scss";
-import Buttons from "../button/Buttons";
+import "./Why.scss"
 const Why = () => {
   return (
     <div className="why">

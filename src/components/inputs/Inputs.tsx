@@ -85,9 +85,12 @@ const Inputs = () => {
           </div>
         </div>
         <div className="pointwo">
-          <Buttons  width='135px'
-            height='56px' fontSize='17px' text="отправить" />
-          <button onClick={handleUpdate} id='btn' >отмена</button>
+          <Buttons   width='135px'
+            height='56px' fontSize='17px' text="отправить" onClick={() => {
+              console.log("click");
+              
+            }} />
+          <button onClick={() => handleUpdate} id='btn' >отмена</button>
         </div>
       </div>
     </div>

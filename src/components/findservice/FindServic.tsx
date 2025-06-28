@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { technologies } from "../../utils/texnalogy";
-import { LogoData } from '../../utils/data';
 import './FindService.scss';
 import FindServicesone from './find-services/FindServicesone';
 import FindServicetwo from './find-services/FindServicetwo';

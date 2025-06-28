@@ -151,7 +151,7 @@ const MainSamsung = () => {
     if (index > 0) setIndex(index - 1);
   };
 
-  const goToSlide = (i) => {
+  const goToSlide = (i:number) => {
     setIndex(i);
   };
   
@@ -180,7 +180,7 @@ const MainSamsung = () => {
 
     return () => clearInterval(timer);
   }, [timeLeft]);
-  const formatTime = (val) => String(val).padStart(2, '0');
+  const formatTime = (val:number | string): string => String(val).padStart(2, '0');
   const hours = Math.floor(timeLeft / 3600);
   const minutes = Math.floor((timeLeft % 3600) / 60);
   const seconds = timeLeft % 60;

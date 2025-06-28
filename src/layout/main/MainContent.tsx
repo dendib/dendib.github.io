@@ -1,8 +1,8 @@
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
-import React, { useState, } from "react";
+import  { useState, } from "react";
 import "./MainContent.scss";
 import { forCarousel } from "../../utils/data";
-import ChoseCenter from "../../components/chooseCenter/choseCenter";
+import ChoseCenter from "../../components/chooseCenter/ChoseCenter";
 import Why from "../../components/whychooseUs/Why";
 import FindService from "../../components/findservice/FindServic";
 import Reviews from "../../components/rewiews/Reviews";

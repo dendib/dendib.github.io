@@ -68,7 +68,7 @@ const BoschCarousel = () => {
     );
   };
 
-  const getPositionClass = (index) => {
+  const getPositionClass = (index:number) => {
     if (index === currentIndex) return "center";
     if (index === (currentIndex + 1) % reviews.length) return "right";
     if (index === (currentIndex - 1 + reviews.length) % reviews.length)

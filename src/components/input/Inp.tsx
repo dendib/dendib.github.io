@@ -1,6 +1,5 @@
-import React from 'react'
 import { Select } from 'antd';
-import { russianCities } from '../../utils/data';
+import { russianCities } from '../../utils/russiacity';
 import './Inp.scss'
 const Inp = () => {
   return (

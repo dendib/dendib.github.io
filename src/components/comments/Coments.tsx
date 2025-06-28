@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import {  Modal } from 'antd';
 import './Coment.scss';
 import Buttons from '../button/Buttons';
@@ -13,9 +13,8 @@ const Coments = () => {
 
   const handleOk = () => {
     if (inputValue.trim() !== "") {
-      const updatedQuestions = [...questions, inputValue]; // Yangi savolni qo‘shamiz
-      setQuestion(updatedQuestions);
-      localStorage.setItem("savedQuestions", JSON.stringify(updatedQuestions)); // LocalStorage ga massivni saqlaymiz
+      const updatedQuestions = [...questions, inputValue]; 
+     localStorage.setItem("savedQuestions", JSON.stringify(updatedQuestions));
       setIsModalOpen(false);
       setInputValue("");
     }
@@ -66,7 +65,7 @@ const Coments = () => {
         </div>
 
         <div className="give-question-button">
-          <Buttons text="Задать вопрос" onClick={showModal}>
+          <Buttons text="Задать вопрос" onClick={() => showModal}>
           </Buttons>
           <Modal
             title="Задайте свой вопрос"

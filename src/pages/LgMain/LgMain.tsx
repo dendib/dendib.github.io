@@ -256,14 +256,14 @@ const LgMain = () => {
       });
     }, 1000);
     return () => clearInterval(timer);
-  }, []);
+  }, [timeLeft]);
 
   useEffect(() => {
     const interval = setInterval(goToNextImage, 2000);
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, []);
 
-  const formatTime = (val) => String(val).padStart(2, '0');
+  const formatTime = (val:number |  string): string => String(val).padStart(2, '0');
   const hours = Math.floor(timeLeft / 3600);
   const minutes = Math.floor((timeLeft % 3600) / 60);
   const seconds = Math.floor(timeLeft % 60);
