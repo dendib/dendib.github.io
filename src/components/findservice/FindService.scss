@@ -1,0 +1,210 @@
+.find-section {
+    margin: 200px 0 0 0;
+    width: 1200px;
+    margin: auto ;
+    height: 931px;
+    
+    h1 {
+        color: #4e4e4e !important;
+    }
+
+    p {
+        color: #7a7a7a;
+    }
+
+    @media (max-width: 1300px) {
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    @media (max-width: 768px) {
+        margin-top: 50px;
+    }
+
+    .find-wrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        c
+        h1 {
+            font-weight: 550;
+            font-size: 36px;
+            line-height: 120%;
+            letter-spacing: 0%;
+            color: rgba(78, 78, 78, 1);
+        }
+
+        h4 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+            letter-spacing: 0%;
+            color: rgba(122, 122, 122, 1);
+            text-align: center;
+            
+        }
+    }
+
+    .find-container {
+        margin-top: 100px;
+
+        @media (max-width: 1300px) {
+            margin-top: 100px;
+        }
+
+        @media (max-width: 768px) {
+            margin-top: 50px;
+        }
+
+        .find-header {
+            span {
+                color: rgba(122, 122, 122, 1);
+                font-size: 20px;
+            }
+
+            div {
+                margin-top: 20px;
+                width: 100%;
+                height: 10px;
+            }
+        }
+
+        h2 {
+            color: rgba(78, 78, 78, 1);
+            font-size: 24px;
+            margin: 50px 0 30px 0;
+        }
+
+        .find-steps {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            justify-content: center;
+            gap: 40px;
+            width: 700px;
+            margin: 15px auto ;
+          
+            @media (max-width: 1300px) {
+                justify-content: center;
+                grid-template-columns: repeat(5, 1fr);
+                width: 90%;
+                gap: 25px;
+            }
+
+            @media (max-width: 992px) {
+                grid-template-columns: repeat(4, 1fr);
+                width: 90%;
+                gap: 30px;
+            }
+
+            @media (max-width: 898px) {
+                grid-template-columns: repeat(3, 1fr);
+                width: 95%;
+                gap: 25px;
+            }
+
+            @media (max-width: 596px) {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                width: 90%;
+                max-width: 450px;
+            }
+
+            @media (max-width: 400px) {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                width: 100%;
+                max-width: 300px;
+             
+            }
+
+
+            .find-step {
+                gap: 15px;
+
+                img {}
+
+                span {
+                    width: 156px;
+                    height: 42px;
+                    font-size: 16px;
+                    color: #7a7a7a;
+                }
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 170px;
+                height: 181px;
+                background-color: #ebebeb;
+                border-radius: 15px;
+                box-shadow: 4px 4px 18px 0px #AFAFAF99;
+                border: 1px solid #ffffff;
+                transition: box-shadow 1.3s ease;
+
+                &:hover {
+                    box-shadow: 7px 7px 16px 0px #6363634D inset;
+                    cursor: pointer;
+                    transform: scale(1.05);
+                }
+
+                @media (max-width: 576px) {
+                    width: 100%;
+                    height: auto;
+                    padding: 15px;
+
+                    span {
+                        width: auto;
+                        height: auto;
+                        font-size: 14px;
+                    }
+                }
+
+                @media (max-width: 400px) {
+                    width: 100%;
+                    max-width: 280px;
+                    margin: auto;
+                }
+            }
+        }
+
+
+        .step-buttons {
+            display: none !important;
+
+            button {
+                visibility: hidden !important;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .find-buttons{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin: 50px 0 100px 0;
+        button{
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            border: none;
+            background-color: #ffffff;
+            border: 1px solid rgba(122, 122, 122, 1);
+            color: rgba(78, 78, 78, 1);
+            text-align: center;
+            &:hover{
+                background: linear-gradient(251.82deg, #FF0000 -25.84%, #FF8522 75.28%);
+                cursor: pointer;
+            transition: transform 0.3s ease;
+                transform: scale(1.1);
+                color: white;
+                border: none;
+            }
+        }
+    }
+}

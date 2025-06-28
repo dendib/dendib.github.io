@@ -1,0 +1,138 @@
+.thenavbar {
+  width: 100%;
+  height: auto;
+  border-width: 1px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 25px 0px #d5d5d5c8;
+  .just_navbar {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+    height: 70px;
+    width: 100%;
+    .navbar-item1 {
+      color: #4e4e4e;
+      ul,
+      li {
+        display: flex;
+        gap: 50px;
+      }
+    }
+    .navbar-item2 {
+      h4 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #ff8522;
+        margin-bottom: 25px;
+      }
+    }
+    .navbar-item3 {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      position: relative;
+      .selectshow {
+     
+        width: 340px;
+        height: 37px;
+        max-width: 340px !important;
+        .ant-select-arrow {
+          font-size: 18px;
+          color: #ff8522 !important;
+        }
+        .ant-select-selector {
+          padding: 0 0 2px 17px;
+          font-size: 18px;
+          border-radius: 16px !important;
+          
+          &:focus {
+            border-color: #ccc !important;
+            box-shadow: none !important;
+            color: #ff8522;
+          }
+        }
+        
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .thenavbar {
+    height: 19vh;
+    .just_navbar {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px;
+      .navbar-item1 {
+        order: 2;
+        ul {
+          display: flex !important;
+          gap: 25px !important;
+        }
+      }
+      .navbar-item2 {
+        order: 1;
+        h4 {
+          font-size: 21px !important;
+        }
+        margin: 0 0 50px;
+      }
+      .navbar-item3 {
+        order: 3;
+      }
+    }
+  }
+}
+//  telefomlar uchun
+@media (max-width: 375px) {
+  .thenavbar {
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    .just_navbar {
+      padding: 0 8px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      gap: 15px;
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+
+      .navbar-item1 {
+        display: none;
+      }
+
+      .navbar-item2 {
+        flex-shrink: 0;
+        padding-top: 50px;
+        h4 {
+          font-size: 14px !important;
+          white-space: nowrap;
+        }
+      }
+      .navbar-item3 {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        .selectshow {
+          width: 100%;
+          max-width: 160px;
+          height: 30px;
+          .ant-select-selector {
+            font-size: 12px;
+            border-radius: 10px !important;
+            height: 30px !important;
+            padding-inline: 8px !important;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+

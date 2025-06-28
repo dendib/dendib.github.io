@@ -1,0 +1,178 @@
+// chetka
+.thenavbar {
+  width: 100%;
+  height: auto;
+  border-width: 1px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 25px 0px #d5d5d5c8;
+
+  .just_navbar {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+    height: 70px;
+    width: 100%;
+
+    .navbar-item1 {
+      color: #4e4e4e;
+
+      ul,
+      li {
+        display: flex;
+        gap: 50px;
+      }
+    }
+
+    .navbar-item2 {
+      img {
+        width: 159px;
+        height: 159px;
+        object-fit: contain;
+      }
+    }
+
+    .navbar-item3 {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      position: relative;
+
+      .selectshow2 {
+        width: 340px;
+        height: 37px;
+        max-width: 340px !important;
+
+        .ant-select-arrow {
+          font-size: 18px;
+          color: #000000 !important;
+        }
+
+        .ant-select-selector {
+          border-color: #000000 !important;
+          outline: none !important;
+          padding: 0 0 2px 17px;
+          font-size: 18px;
+          border-radius: 50px !important;
+
+          &:focus {
+            border-color: #ccc !important;
+            box-shadow: none !important;
+            color: #ff8522;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .thenavbar {
+    .just_navbar {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100px !important;
+      width: 100%;
+
+      .navbar-item1 {
+        order: 2;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 20px !important;
+          padding: 0 !important;
+          margin: -30px !important;
+        }
+      }
+
+      .navbar-item2 {
+        img {
+          width: 120px;
+          height: auto;
+          margin-top: -30px;
+          display: block;
+          margin-bottom: -40px !important;
+          padding: 0;
+          vertical-align: middle;
+        }
+      }
+
+
+      .navbar-item3 {
+        order: 3;
+
+        .selectshow2 {
+          width: 1000px;
+          max-width: 250px !important;
+          height: auto;
+
+          .ant-select-selector {
+            font-size: 16px;
+            padding: 0 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//  telefomlar uchun
+@media (max-width: 375px) {
+  .thenavbar {
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+
+    .just_navbar {
+      padding: 0 20px !important;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+
+      .navbar-item1 {
+        display: none;
+      }
+
+      .navbar-item2 {
+        flex-shrink: 0;
+        img {
+          margin-bottom: 25px !important;
+          width: 69px;
+          height: 69px;
+          margin: 0;
+          white-space: nowrap;
+        }
+    
+      }
+
+      .navbar-item3 {
+        flex: 1;
+        margin-bottom: 25px !important;
+        .selectshow2 {
+          width: 100%;
+          max-width: 160px;
+          height: 30px;
+
+          .ant-select-selector {
+            font-size: 12px;
+            border-radius: 50px !important;
+            height: 30px !important;
+            padding-inline: 8px !important;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

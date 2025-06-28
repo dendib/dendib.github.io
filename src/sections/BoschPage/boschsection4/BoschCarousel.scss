@@ -1,0 +1,265 @@
+.carousel-bosch {
+    width: 100%;
+    margin: auto;
+    background: #f0f1f3;
+    text-align: center;
+    padding-top: 200px;
+
+    h1 {
+        padding-top: 30px;
+        margin-bottom: 60px;
+        font-weight: 550;
+        font-size: 36px;
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        height: 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .carousel-item {
+        position: absolute;
+        width: 582px;
+        height: 245px;
+        transition: all 0.5s ease;
+        opacity: 0;
+        transform: scale(0.85);
+        filter: blur(2px);
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 21px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        h3 {
+            text-align: start;
+            margin: 10px 25px 40px;
+
+        }
+
+        p {
+            text-align: start;
+            margin: 10px 25px;
+        }
+
+        .linea5 {
+            width: 100%;
+            min-width: 375px;
+            height: 2px;
+            background: #7a7a7a;
+            margin: 20px 0;
+        }
+
+        .stars-box {
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+            gap: 20px;
+        }
+    }
+
+    .carousel-item.center {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+        filter: none;
+        z-index: 3;
+        pointer-events: auto;
+
+    }
+
+    .carousel-item.left {
+        opacity: 0.6;
+        transform: translateX(-500px) scale(0.9); // Yaqin turadi
+        z-index: 2;
+    }
+
+    .carousel-item.right {
+        opacity: 0.6;
+        transform: translateX(500px) scale(0.9); // Yaqin turadi
+        z-index: 2;
+    }
+
+    .dots {
+        margin-top: 60px;
+
+        .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin: 0 4px;
+            cursor: pointer;
+
+            &.active {
+                background: #00639A;
+
+            }
+        }
+    }
+
+    .btns-slick-bosch {
+        .bosch-btns-slick {
+            font-weight: 100;
+            font-size: 48px;
+            margin: 0 10px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            color: #00639A;
+            position: relative;
+            bottom: 60px;
+            left: 650px;
+        }
+    }
+}
+
+// ✅ Responsive: faqat 1ta card chiqsin
+@media (max-width: 1500px) {
+    .carousel-bosch {
+        .btns-slick-bosch {
+            margin-top: 25px;
+
+            .bosch-btns-slick {
+                position: static;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .carousel-bosch {
+        .carousel-item.left {
+            transform: translateX(-300px) scale(0.9);
+        }
+
+        .carousel-item.right {
+            transform: translateX(300px) scale(0.9);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-bosch {
+        .carousel-wrapper {
+            height: auto;
+        }
+
+        .carousel-item {
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%) scale(0.95) !important;
+            opacity: 1 !important;
+            position: relative;
+            /* Change to relative for single item display */
+            margin-bottom: 20px;
+            /* Add some space between items if they stack */
+
+            &.left,
+            &.right {
+                display: none;
+            }
+
+            .linea5 {
+                display: none;
+            }
+        }
+
+        .dots {
+            margin-top: 20px;
+        }
+
+        .btns-slick-bosch {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            .bosch-btns-slick {
+                position: static;
+                bottom: auto;
+                left: auto;
+                margin: 0 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-bosch {
+        padding: 0 25px;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .carousel-item {
+            width: 100% !important;
+            width: 250px;
+            height: 391px;
+            flex-direction: column;
+           align-items: center;
+            .imag {
+                margin-bottom: 15px;
+                width: 100%;
+               display: flex;
+               justify-content: center;
+                img {
+                    border: 0;
+                    min-width: 375px !important;
+                    height: 200px !important;
+                    width: 100%;
+                }
+            }
+
+            h3 {
+                margin: 10px 0;
+                text-align: center;
+            }
+
+            p {
+                margin: 5px 0;
+                text-align: center;
+            }
+
+            .linea5:nth-child(2) {
+                min-width: unset;
+                width: 340px;
+                max-width: 320px;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .stars-box {
+                margin-top: 30px;
+                margin-left: 0;
+                justify-content: center;
+                flex-direction: co;
+                gap: 10px;
+            }
+        }
+
+        .dots {
+            order: 1 !important;
+            display: flex;
+            justify-content: center;
+            gap: 10px !important;
+
+            .dot {
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        .btns-slick-bosch {
+            order: 0 !important;
+        }
+    }
+}

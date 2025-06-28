@@ -1,0 +1,337 @@
+.bosch-section-six {
+    display: flex;
+    background: url("/src/assets/imagesBosch/imagesBoschSEction3/Rectangle 203.png") no-repeat center center / cover;
+    justify-content: center;
+
+    .bosch-section-six-box {
+        width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .box1 {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+
+            h1 {
+                width: 310px;
+                height: 86px;
+            }
+
+            .box-item {
+                width: 365px;
+                height: 96px;
+                display: flex;
+                align-items: center;
+
+                h1 {
+                    color: #00639A;
+                    font-weight: 900;
+                    font-size: 80px;
+                    line-height: 120%;
+                    letter-spacing: -1%;
+
+                }
+
+                span {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #00639A;
+                }
+            }
+        }
+
+        .box2 {
+            margin-top: 100px;
+            display: flex;
+            gap: 50px;
+
+            .input-wrapper {
+                position: relative;
+
+                input {
+                    padding: 12px 8px 8px;
+                    font-size: 16px;
+                    border: none;
+                    border-bottom: 2px solid transparent;
+                    background: transparent;
+                    outline: none;
+                    transition: box-shadow 0.3s ease;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 2px;
+                        background: linear-gradient(90.01deg, #0A3E5B -7.35%, #07A7FF 106.82%);
+                        pointer-events: none;
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                    }
+                }
+
+                .inputlast {
+                    width: 300px;
+                }
+
+                position: relative;
+
+                input:focus {
+                    border-bottom-color: #007BFF;
+                }
+
+                input:focus::before {
+                    opacity: 1;
+                }
+
+                label {
+                    position: absolute;
+                    top: 12px;
+                    left: 8px;
+                    font-size: 16px;
+                    color: rgb(0, 0, 0);
+                    pointer-events: none;
+                    transition: 0.3s ease all;
+                }
+
+                input:focus+label,
+                input:not(:placeholder-shown)+label {
+                    top: -25px;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        button {
+            margin-top: 100px;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .bosch-section-six {
+        width: 100%;
+
+        .bosch-section-six-box {
+            width: 100%;
+            position: relative;
+            left: 0 !important;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 1233px) {
+    .bosch-section-six {
+        width: 100% !important;
+        background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+            url("/src/assets/imagesBosch/imagesBoschSEction3/Rectangle 203.png") no-repeat center center / cover;
+        align-items: end;
+        height: 700px;
+
+        img {
+            width: 300px;
+            max-width: 100%;
+        }
+
+        .bosch-section-six-box {
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .box1 {
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px !important;
+            }
+
+            .box2 {
+                flex-direction: column;
+                gap: 20px;
+
+                .input-wrapper {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+
+
+                    label {
+                        position: absolute;
+                        top: 12px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        font-size: 16px;
+                        color: rgb(0, 0, 0);
+                        pointer-events: none;
+                        transition: 0.3s ease all;
+                        text-align: center;
+                        width: 100%;
+                    }
+
+                    input:focus+label,
+                    input:not(:placeholder-shown)+label {
+                        top: -25px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .bosch-section-six {
+        height: auto;
+        flex-direction: row-reverse;
+
+        img {
+            width: 170.0703125px;
+            height: 238.55809020996094px;
+            transform: scaleX(-1);
+        }
+
+        .bosch-section-six-box {
+            align-items: start;
+
+            .box1 {
+                width: 100%;
+                position: relative;
+                left: 100px;
+                display: flex;
+                align-items: center;
+                gap: 10px !important;
+
+                h1 {
+                    font-weight: 550;
+                    font-size: 26px;
+                    line-height: 110.00000000000001%;
+                    text-align: center;
+                }
+
+                .box-item {
+                    width: 254px;
+                    height: 43px;
+                    gap: 0 !important;
+                    display: flex;
+                    align-items: center !important;
+                    justify-content: center;
+                    gap: 15px !important;
+
+                    h1 {
+                        font-weight: 900;
+                        font-size: 45px;
+                        margin-top: 30px;
+                    }
+
+                    span {
+                        width: 409px;
+                        font-weight: 400;
+                        font-size: 12px;
+
+                    }
+                }
+            }
+
+            .box2 {
+                margin-top: 50px;
+                margin-left: 30px;
+                display: flex;
+
+                label {
+                    text-align: start !important;
+                }
+            }
+
+            button {
+                margin-left: 30px
+            }
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .bosch-section-six {
+        height: 669px !important;
+        flex-direction: row-reverse;
+        padding: 0 30px;
+        width: 100%;
+
+        img {
+            position: relative;
+            left: -60px;
+            width: 170.0703125px;
+            height: 238.55809020996094px;
+            transform: scaleX(-1);
+        }
+
+        .bosch-section-six-box {
+            margin-bottom: 200px;
+            width: 100%;
+            position: relative;
+            .box1 {
+                width: 100%;
+                position: relative;
+                left: 100px;
+                display: flex;
+                align-items: center;
+                gap: 10px !important;
+
+                h1 {
+                    font-weight: 550;
+                    font-size: 26px;
+                    line-height: 110.00000000000001%;
+                    text-align: center;
+                }
+
+                .box-item {
+                    width: 254px;
+                    height: 43px;
+                    gap: 0 !important;
+                    display: flex;
+                    align-items: center !important;
+                    justify-content: center;
+                    gap: 15px !important;
+
+                    h1 {
+                        font-weight: 900;
+                        font-size: 45px;
+                        margin-top: 30px;
+                    }
+
+                    span {
+                        width: 409px;
+                        font-weight: 400;
+                        font-size: 12px;
+
+                    }
+                }
+            }
+
+            .box2 {
+                position: relative;
+                left: 20px;
+                width: 100%;
+                margin-top: 50px;
+                display: flex;
+
+                label {
+                    text-align: start !important;
+                }
+            }
+
+            button {
+                position: relative;
+                left: 20px;
+                margin-top: 10px !important;
+            }
+        }
+    }
+}

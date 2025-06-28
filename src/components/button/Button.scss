@@ -1,0 +1,34 @@
+.btn-for-all {
+  position: relative;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 25px;
+  font-size: 14px;
+  color: #4E4E4E; // default text color
+  cursor: pointer;
+  background: linear-gradient(91.35deg, #FF0000 -44.12%, #FE7303 77.81%);
+  z-index: 1;
+  transition: all 0.5s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    border-radius: 100px;
+    z-index: -1;
+    transition: all 0.3s ease;
+  }
+
+  // ✅ Hover holati
+  &:hover {
+    color: white; // matn rangi
+  }
+
+  &:hover::before {
+    background: linear-gradient(91.35deg, #FF0000 -44.12%, #FE7303 77.81%);
+  }
+}

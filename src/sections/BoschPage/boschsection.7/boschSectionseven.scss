@@ -1,0 +1,180 @@
+.bosch-seven {
+    padding-top: 200px;
+    background: #f0f1f3;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .bosch-element {
+        gap: 38px;
+        display: flex;
+        justify-content: center;
+
+        .bosch-section-seven-left {
+            display: flex;
+            gap: 36px;
+            flex-direction: column;
+            margin-bottom: 100px;
+
+            .item-boschone {
+                cursor: pointer;
+                width: 277px;
+                height: 333px;
+                background: #FFFFFF;
+                padding: 30px 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: start;
+                gap: 25px;
+                transition: background 0.5s ease;
+
+                &:hover {
+                    color: white;
+                    background: #00639A;
+                    box-shadow: 5px 10px 45px 0px #60A9FF73;
+
+                    img {
+                        filter: brightness(0) invert(1);
+
+                    }
+                }
+            }
+        }
+
+        .bosch-section-seven-center {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+
+            .item-boschone {
+                cursor: pointer;
+                width: 277px;
+                height: 333px;
+                background: #FFFFFF;
+                padding: 30px 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: start;
+                transition: background 0.5s ease;
+                gap: 25px;
+
+                &:hover {
+                    color: white;
+                    background: #00639A;
+                    box-shadow: 5px 10px 45px 0px #60A9FF73;
+
+                    img {
+                        filter: brightness(0) invert(1);
+
+                    }
+                }
+            }
+
+            .FIRST {
+                img {
+                    filter: invert(34%) sepia(86%) saturate(2095%) hue-rotate(165deg) brightness(93%) contrast(101%);
+                }
+            }
+        }
+    }
+
+    .bosch-section-seven-right {
+        h1 {
+            font-weight: 550;
+            font-size: 36px;
+            width: 515px;
+            height: 86px;
+        }
+
+        p {
+            margin: 25px 0 10px 0;
+            width: 435px;
+            height: 231px;
+            font-weight: 400;
+            font-size: 16px;
+
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .bosch-seven {
+        width: 100%;
+        flex-direction: column-reverse;
+        text-align: center;
+
+        .bosch-element {}
+
+        .bosch-section-seven-right {
+            p {
+                text-align: center;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 650px) {
+    .bosch-seven {
+        width: 100% !important;
+        flex-direction: column-reverse;
+        text-align: center;
+        position: relative;
+
+        .bosch-element {
+            width: 100% !important;
+            flex-direction: column;
+            align-items: center;
+
+            .bosch-section-seven-left {
+                margin: 0 !important;
+
+                .item-boschone {
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .bosch-section-seven-center {
+                margin: 0 auto !important;
+                width: 100%;
+                align-items: center;
+
+                .item-boschone {
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .bosch-section-seven-right {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        
+            h1 {
+                width: 100%;
+                margin: 0 !important;
+                font-size: 23px;
+            }
+
+            p {
+                margin: 0 !important;
+                width: 100% !important;
+                font-size: 13px;
+            }
+            button{
+                position: absolute;
+                bottom: -120px;
+            }
+        }
+
+    }
+}

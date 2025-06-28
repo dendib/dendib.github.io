@@ -1,0 +1,43 @@
+import "./boschSectionseven.scss";
+import styles from "../BoschModul.module.scss";
+const BoschSectionSeven = () => {
+  return (
+    <div className="bosch-seven">
+     <div className="bosch-element">
+     <div className="bosch-section-seven-left">
+           <div className="item-boschone">
+             <img src="/src/assets/images/icon/Frame 49.png"  />
+             <h3>Гарантия низкой цены</h3>
+             <p>Наш прайс составлен на основе средних рыночных цен, потому что мы закупаем запчасти напрямую у производителей</p>
+           </div>
+           <div className="item-boschone">
+             <img src="/src/assets/images/icon/Frame 49.png"  />
+             <h3>Бесплатный выезд мастера</h3>
+             <p>Специалист приедет на вызов в течение 40 минут, после оформления заявки. Выезд будет бесплатным, даже если вы откажетесь
+             от ремонта!</p> 
+           </div>
+        </div>
+        <div className="bosch-section-seven-center">
+           <div className="item-boschone FIRST">
+             <img src="/src/assets/images/icon/Frame 51.png"  />
+             <h3>Бесплатный выезд мастера</h3>
+             <p>Специалист приедет на вызов в течение 40 минут, после оформления заявки. Выезд будет бесплатным, даже если вы откажетесь
+             от ремонта!</p> 
+           </div>
+           <div className="item-boschone ">
+             <img src="/src/assets/images/icon/Frame 50.png"  />
+             <h3>Гарантия низкой цены</h3>
+             <p>Наш прайс составлен на основе средних рыночных цен, потому что мы закупаем запчасти напрямую у производителей</p>
+           </div>
+        </div>
+     </div>
+        <div className="bosch-section-seven-right">
+          <h1>Мы отличаемся четырьмя преимуществами</h1>
+          <p>Вся электробытовая техника этого бренда отличается высоким качеством сборки и долговечностью эксплуатации. Однако при отсутствии сервисного обслуживания и регулярной профилактики, рабочий ресурс духового шкафа снижается. При аварийных поломках, мы не рекомендуем пробовать разобрать технику и устранить неисправность своими силами. Это усложняет диагностику и увеличивает стоимость устранения неисправности. Позвоните в наш сервисный центр, и ремонт посудомоечной машины Бош будет выполнен в день обращения на дому заказчика.</p>
+          <button className={styles["button-blue-bosch"]}>Оставить заявку</button>
+        </div>
+    </div>
+  )
+}
+
+export default BoschSectionSeven

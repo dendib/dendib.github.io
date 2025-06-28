@@ -1,0 +1,290 @@
+.boschsection1 {
+    text-align: center !important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  background: #F0F1F3;
+    
+
+    h1 {
+        margin-top: 130px;
+        font-weight: 550;
+        font-size: 36px;
+        color: #212121;
+    }
+
+    p {
+        margin: 20px 0 70px 0;
+        width: 952px;
+        height: 52px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #212121;
+    }
+
+    .charchsBosch {
+        width: 100%;
+        height: 580px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .charch {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+
+            img {
+                width: 38px;
+                height: 43px;
+                object-fit: contain;
+                margin-left: 50px;
+            }
+
+            .charch-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+                gap: 20px;
+
+                span {
+                    transform: rotateZ(-90deg);
+                    display: inline-block;
+                    color: #00639A;
+                }
+
+                .the-charch {
+                    margin-top: auto;
+                    border: 1px solid #7A7A7A;
+                    background: #F0F1F3;
+                    width: 33px;
+                }
+            }
+
+            h5 {
+                margin-left: 55px;
+                margin-top: 20px;
+            }
+        }
+
+        .charch:nth-child(1) .the-charch {
+            height: 314px;
+        }
+
+        .charch:nth-child(2) .the-charch {
+            height: 281px;
+        }
+
+        .charch:nth-child(3) .the-charch {
+            height: 248px;
+        }
+
+        .charch:nth-child(4) .the-charch {
+            height: 296px;
+        }
+
+        .charch:nth-child(5) .the-charch {
+            height: 270px;
+
+        }
+
+        .charch:nth-child(6) .the-charch {
+            height: 314px;
+        }
+
+        .charch:nth-child(6) {
+            h5 {
+                width: 173px;
+                height: 42px;
+            }
+        }
+
+        .charch:nth-child(5) {
+            h5 {
+                width: 145px;
+                height: 42px;
+            }
+        }
+
+        .charch:nth-child(3) {
+            h5 {
+                width: 114px;
+                height: 42px;
+
+            }
+        }
+
+        .charch:nth-child(1) {
+            span {
+                margin-top: 30px;
+            }
+        }
+
+        .charch:nth-child(2) {
+            margin-top: 30px;
+        }
+
+        .charch:nth-child(3) {
+            margin-top: 86px;
+
+            span {
+                margin-bottom: 25px;
+            }
+        }
+
+        .charch:nth-child(4) {
+            span {
+                margin-top: 24px;
+            }
+
+            margin-top: 10px;
+        }
+
+        .charch:nth-child(5) {
+            margin-top: 60px;
+        }
+
+        .charch:nth-child(6) {
+            margin-top: 15px;
+
+            span {
+                margin-top: 35px;
+            }
+        }
+    }
+}
+
+/* 1400px dan kichik */
+@media (max-width: 1200px) {
+    .boschsection1 {
+        padding: 20px;
+
+        h1 {
+            font-size: 30px;
+            margin-top: 90px;
+        }
+
+        p {
+            width: 90%;
+            font-size: 18px;
+            margin: 20px auto 40px;
+            text-align: center;
+        }
+
+        .charchsBosch {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            padding: 15px;
+
+            .charch {
+                height: 100px !important;
+                margin: 0 !important;
+                padding: 15px;
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+                width: 100%;
+                border: 1px solid #00639A !important;
+
+                img {
+                    margin: 0 !important;
+                    width: 36px;
+                    height: 40px;
+                }
+
+                .charch-item {
+                    display: none !important;
+                }
+
+                h5 {
+                    font-size: 16px;
+                    margin-top: 15px;
+                    margin-left: 0 !important;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .boschsection1 h1 {
+        font-size: 26px;
+    }
+
+    .boschsection1 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .boschsection1 h1 {
+        font-size: 22px;
+        margin-top: 70px;
+    }
+
+    .boschsection1 p {
+        font-size: 15px;
+        margin: 15px auto 30px;
+    }
+
+    .boschsection1 .charchsBosch {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        gap: 20px;
+    }
+
+    .boschsection1 .charchsBosch .charch h5 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .charchsBosch {
+        margin-top: 90px !important;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+        background-color: #f4f4f4 !important;
+    }
+
+    .charchsBosch .charch {
+        background: #fff !important;
+        padding: 10px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-height: 120px !important;
+
+        h5 {
+            font-size: 12px;
+            margin: 5px 0 0;
+        }
+
+        img {
+            width: 22px;
+            height: 24px;
+            margin-left: 0;
+        }
+
+        .charch-item {
+            display: none !important;
+        }
+    }
+}

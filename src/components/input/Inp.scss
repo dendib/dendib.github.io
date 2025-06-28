@@ -1,0 +1,53 @@
+  @media (max-width: 375px) {
+    .thenavbar {
+      height: 75px;
+      width: 100%;
+      overflow: hidden;
+      .just_navbar {
+        padding: 0 8px !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 45px;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+  
+        .navbar-item1 {
+          display: none;
+        }
+  
+        .navbar-item2 {
+          flex-shrink: 0;
+          h4 {
+            font-size: 14px !important;
+            margin: 0;
+            white-space: nowrap;
+          }
+        }
+  
+        .navbar-item3 {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+  
+          .selectshow {
+            width: 100%;
+            max-width: 160px;
+            height: 30px;
+  
+            .ant-select-selector {
+              font-size: 12px;
+              border-radius: 10px !important;
+              height: 30px !important;
+              padding-inline: 8px !important;
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  

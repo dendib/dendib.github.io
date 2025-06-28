@@ -1,0 +1,394 @@
+.bosch-rewievs{
+    padding: 100px 0 !important;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    .reviews-item10 {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+  
+    .item-one10 {
+      display: flex;
+      flex-direction: column;
+      gap: 55px;
+      flex: 1;
+      width: 100%;
+      min-width: 100px;
+  
+      h2 {
+        font-weight: 550;
+        font-size: 36px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(78, 78, 78, 1);
+      }
+  
+      .image110 {
+        width: 442px;
+        height: 278px;
+        margin: 1rem 0;
+      }
+  
+      .image210 {
+        display: none;
+      }
+  
+      .item-son10 {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+  
+        button {
+          width: 179px;
+          height: 56px;
+          background: #A50034;
+          border-radius: 100px;
+          color: white;
+          border-radius: 10px;
+        }
+  
+        span {
+          width: 201px;
+          height: 56px;
+          border-radius: 10px;
+          border-width: 1px;
+          color: rgba(33, 33, 33, 1);
+          border: 1px solid #212121;
+          display: flex;
+          align-items: center;
+          font-weight: 400;
+          font-size: 14px;
+  
+  
+          padding: 20px 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .item-two10 {
+      flex: 2;
+      min-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .carousel-wrapper10 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      position: relative;
+  
+      .img110 {
+        display: block;
+        position: absolute;
+        top: -10px;
+        left: 130px;
+        width: 35px;
+        z-index: 5 !important;
+      }
+    }
+  
+    .carousel10 {
+      display: flex;
+      gap: 2rem;
+      align-items: stretch;
+      justify-content: flex-start;
+      max-width: 100%;
+    }
+  
+    .item-box10 {
+      width: 480px;
+      height: 502px;
+      padding: 1rem;
+      background: rgba(235, 235, 235, 1);
+      border: 1px solid rgba(255, 255, 255, 1);
+      border-radius: 20px;
+      text-align: center;
+      transition: all 0.4s ease;
+      flex-shrink: 0;
+  
+      .img210 {
+        max-width: 100px;
+        border-radius: 50%;
+        margin: 60px 0 0 0;
+        width: 96px;
+        height: 96px;
+      }
+  
+      p {
+        margin-top: 40px;
+        width: 399px;
+        height: 101px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        text-align: center;
+        color: #4E4E4E;
+        font-size: 0.85rem;
+        margin-left: 20px;
+      }
+  
+      h4 {
+        margin-top: 25px;
+      }
+  
+      .customers10 {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+  
+      .linya10 {
+        position: absolute;
+        top: 265px;
+        left: 103px;
+        width: 480px;
+        height: 1px;
+        z-index: -1;
+        background: rgba(122, 122, 122, 1);
+      }
+  
+      .customers210 {
+        height: 10px;
+        display: flex;
+        margin-top: 70px;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      &.active10 {
+        opacity: 1;
+        z-index: 2;
+      }
+  
+      &.faded10 {
+        margin-top: 60px;
+        margin-left: -100px;
+        width: 381px;
+        height: 376px;
+        opacity: 0.5;
+        z-index: 1;
+        padding: 0 !important;
+        text-align: center;
+  
+        .customers10 {
+          margin-top: 15px;
+        }
+  
+        .customers210 {
+          margin-top: 55px !important;
+        }
+  
+        h4 {
+          margin-top: 10px !important;
+        }
+  
+        .linya10 {
+          position: relative;
+          top: 30px;
+          width: 381px;
+          left: 0 !important;
+          height: 1px;
+          background-color: rgb(0, 0, 0);
+        }
+  
+        p {
+          width: 340px;
+          height: 107px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 130%;
+          text-align: center;
+          color: #212121;
+        }
+  
+        .img210 {
+          width: 66px;
+          height: 66px;
+          margin: 0;
+        }
+  
+        .customers210 {
+          margin-top: 0;
+        }
+      }
+    }
+  
+    .btnsbosch210 {
+      display: flex;
+      justify-content: flex-end;
+      margin: 60px 150px 0 0;
+      gap: 20PX;
+    }
+  
+    .carousel-btnbosch210 {
+      width: 67px;
+      height: 66px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      border-radius: 50px;
+      border: none;
+      font-size: 40px;
+      background-color: transparent;
+      color: #00639A;
+      transition: transform 0.4s ;
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+    justify-content: center;
+  }
+  
+  @media (max-width: 1400px) {
+    .bosch-rewievs {
+      margin-top: 150px;
+  
+      .item-box10.faded10 {
+        display: none;
+      }
+  
+      .reviews-item10 {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .item-one10 {
+        align-items: center;
+        text-align: center;
+  
+        .image110 {
+          width: 60%;
+          height: auto;
+        }
+  
+        .image210 {
+          display: none;
+        }
+  
+        .item-son10 {
+          flex-direction: column;
+          gap: 20px;
+  
+          span {
+            width: auto;
+            text-align: center;
+          }
+        }
+      }
+  
+      .item-two10 {
+        min-width: 100%;
+      }
+  
+      .carousel-wrapper10 {
+        flex-direction: column;
+        align-items: center;
+  
+        .img110 {
+          display: none;
+        }
+      }
+  
+      .carousel10 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+  
+      .item-box10 {
+        width: 90%;
+        height: auto;
+  
+        .linya10 {
+          display: none;
+        }
+  
+        p {
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+  
+      .item-box10.faded10 {
+        margin: 0;
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+  
+        p {
+          width: 100%;
+        }
+  
+        .linya10 {
+          display: none;
+        }
+  
+        .customers210 {
+          margin-top: 0px !important;
+        }
+      }
+  
+      .btnsbosch210 {
+        justify-content: center;
+        margin: 40px 0 0 0;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bosch-rewievs {
+      .item-one10 {
+        h2 {
+          font-size: 28px;
+        }
+  
+        .image110 {
+          display: none;
+        }
+  
+        .image210 {
+          width: 70%;
+        }
+      }
+  
+      .item-box10,
+      .item-box10.faded10 {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 15px;
+  
+        p {
+          font-size: 14px;
+        }
+  
+        .img210 {
+          width: 70px;
+          height: 70px;
+        }
+  
+        .customers210 {
+          font-size: 12px;
+          gap: 10px;
+          padding: 0 40px;
+        }
+      }
+  
+      .carousel-btnbosch210 {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+      }
+    }
+  }
+  

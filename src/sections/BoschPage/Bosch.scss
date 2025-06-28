@@ -1,0 +1,218 @@
+/* Bosch.scss */
+
+.bosch-main {
+  width: 100%;
+  background: #F0F1F3;
+
+  height: 1010px;
+  .top-linea {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right,
+        #902634 0%, #902634 9.09%,
+        #AD283B 9.09%, #AD283B 18.18%,
+        #DF1C24 18.18%, #DF1C24 27.27%,
+        #5E3B8B 27.27%, #5E3B8B 36.36%,
+        #2B3984 36.36%, #2B3984 45.45%,
+        #2160A7 45.45%, #2160A7 54.54%,
+        #327EB2 54.54%, #327EB2 63.63%,
+        #01A7CF 63.63%, #01A7CF 72.72%,
+        #2E8A63 72.72%, #2E8A63 81.81%,
+        #8BBA71 81.81%, #8BBA71 90.9%,
+        #358B4A 90.9%, #358B4A 100%);
+  }
+
+  .fon-bosch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 875px;
+    width: 100%;
+    background: url("/src/assets/imagesBosch/фон.png") no-repeat center center / cover;
+
+    &-item1 {
+      width: 786px;
+      height: 294px;
+      background: #FFFFFFB2;
+      padding: 50px 40px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+
+      h2 {
+        font-weight: 550;
+        font-size: 36px;
+      }
+
+      p {
+        width: 532px;
+        height: 52px;
+        font-weight: 400;
+        font-size: 20px;
+      }
+
+      &-btns {
+        margin: 15px 0 0 0;
+        display: flex;
+        align-self: center;
+        gap: 30px;
+
+        #btn1 {
+          width: 267px;
+          height: 56px;
+        }
+
+        #btn2 {
+          width: 186px;
+          height: 56px;
+
+        }
+      }
+    }
+
+    &-item2 {
+
+      background: #FFFFFFB2;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      gap: 30px;
+      width: 903px;
+      height: auto;
+      min-height: 150px;
+
+      .steps {
+        width: 116px;
+        height: 90px;
+        top: 649px;
+        left: 944px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        span {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 130%;
+          letter-spacing: 0%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .bosch-main {
+    .fon-bosch {
+      height: auto !important;
+      gap: 50px;
+      padding: 40px 20px;
+
+      &-item1 {
+        width: 100%;
+        max-width: 600px;
+        padding: 40px 30px;
+
+        h2 {
+          font-size: 28px;
+        }
+
+        p {
+          width: 100%;
+          max-width: 450px;
+          font-size: 18px;
+          height: auto;
+        }
+
+        &-btns {
+          gap: 15px;
+
+          #btn1,
+          #btn2 {
+            width: 100%;
+            max-width: 300px;
+          }
+        }
+      }
+
+      &-item2 {
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        padding: 20px;
+        gap: 20px;
+        justify-content: center;
+
+        .steps {
+          width: 100px;
+          height: auto;
+          gap: 8px;
+
+          span {
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .bosch-main {
+    .fon-bosch {
+      padding: 70px 15px;
+      &-item1 {
+        padding: 30px 20px;
+        z-index: 1;
+
+        h2 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+         &-btns {
+          flex-direction: column !important;
+          gap: 10px;
+
+          #btn1,
+          #btn2 {
+            height: 48px;
+            font-size: 14px;
+            padding: 15px;
+          }
+        }
+      }
+
+      &-item2 {
+        padding-top: 100px;
+        gap: 15px;
+        min-height: 200px;
+
+        .steps {
+          width: 90px;
+
+          span {
+            font-size: 12px;
+          }
+
+          img {
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+    }
+  }
+}
