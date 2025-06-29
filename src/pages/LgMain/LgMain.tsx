@@ -2,55 +2,55 @@ import { russianCities } from '../../utils/russiacity';
 import { Select } from 'antd';
 import "./LgMain.scss";
 import { useEffect, useState } from 'react';
-import img1 from "../../assets/LgImgaes/фон.png";
-import img2 from "../../assets/LgImgaes/fon2.png";
-import img3 from "../../assets/LgImgaes/fon3.png";
+import img1 from "/LgImgaes/фонlg.png";
+import img2 from "/LgImgaes/fon2.png";
+import img3 from "/LgImgaes/fon3.png";
 import { LeftOutlined, RightOutlined, StarFilled, StarOutlined } from '@ant-design/icons';
 const images = [img1, img2, img3];
 
 const texnalogycLg = [
   {
-    img: "../../src/assets/LgImgaes/ga-b459smum-holodilnik-lg-2_600_thumbnail 1.png",
+    img: "/LgImgaes/ga-b459smum-holodilnik-lg-2_600_thumbnail 1.png",
     name: "Холодильник",
   },
   {
-    img: "../../src/assets/LgImgaes/стиральная_thumbnail 1.png",
+    img: "/LgImgaes/стиральная_thumbnail 1.png",
     name: "Стиральная машина"
   },
   {
-    img: "../../src/assets/LgImgaes/сушильная 1.png",
+    img: "/LgImgaes/сушильная 1.png",
     name: "Сушильная машина",
   },
   {
-    img: "../../src/assets/LgImgaes/179357025_w640_h640_mikrovolnovaya-pech-lg 1.png",
+    img: "/LgImgaes/179357025_w640_h640_mikrovolnovaya-pech-lg 1.png",
     name: "Микроволновая печь",
   },
   {
-    img: "../../src/assets/LgImgaes/tovar107715_thumbnail 1.png",
+    img: "/LgImgaes/tovar107715_thumbnail 1.png",
     name: "Пылесос",
   },
   {
-    img: "../../src/assets/LgImgaes/179357025_w640_h640_mikrovolnovaya-pech-lg 1.png",
+    img: "/LgImgaes/179357025_w640_h640_mikrovolnovaya-pech-lg 1.png",
     name: "Духовой шкаф",
   },
   {
-    img: "../../src/assets/LgImgaes/варочная панель 1.png",
+    img: "/LgImgaes/варочная панель 1.png",
     name: "Варочная панель",
   },
   {
-    img: "../../src/assets/LgImgaes/910d6c61ced9f3e6d29cc95b85354145 1.png",
+    img: "/LgImgaes/910d6c61ced9f3e6d29cc95b85354145 1.png",
     name: "Стайлер для одежды",
   },
   {
-    img: "../../src/assets/LgImgaes/png-transparent-air-conditioning-lg-electronics-Сплит-систем_thumbnail 1.png",
+    img: "/LgImgaes/png-transparent-air-conditioning-lg-electronics-Сплит-систем_thumbnail 1.png",
     name: "Кондиционер для дома",
   },
   {
-    img: "../../src/assets/LgImgaes/large_02_thumbnail 1.png",
+    img: "/LgImgaes/large_02_thumbnail 1.png",
     name: "Очиститель / Увлажнитель воздуха",
   },
   {
-    img: "../../src/assets/LgImgaes/вытяжка 1.png",
+    img: "/LgImgaes/вытяжка 1.png",
     name: "Кухонная вытяжка",
   },
 ];
@@ -60,7 +60,7 @@ const reviews = [
     id: 1,
     name: "Антон Грисевич",
     date: "7 лет",
-    img: "/src/assets/LgImgaes/Rectangle 66 (2).png",
+    img: "/Rectangle 66 (2).png",
     stars: 5,
     grade: "4,6 24 оценки"
   },
@@ -68,7 +68,7 @@ const reviews = [
     id: 2,
     name: "Павел Матухно",
     date: "3 года",
-    img: "/src/assets/LgImgaes/Rectangle 66 (3).png",
+    img: "/LgImgaes/Rectangle 66 (3).png",
     stars: 4,
     grade: "4,6 25 оценки"
   },
@@ -76,7 +76,7 @@ const reviews = [
     id: 3,
     name: "Владимир Повелецкий",
     date: "1 год",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66 (1).png",
+    img: "/Rectangle 66 (1).png",
     stars: 4,
     grade: "4,1 24 оценки"
   },
@@ -84,7 +84,7 @@ const reviews = [
     id: 5,
     name: "Игорь Иванов",
     date: "5 лет",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+    img: "/Rectangle 66.png",
     stars: 5,
     grade: "4,6 24 оценки"
   },
@@ -92,7 +92,7 @@ const reviews = [
     id: 6,
     name: "Игорь Иванов",
     date: "5 лет",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+    img: "/Rectangle 66.png",
     stars: 5,
     grade: "4,6 24 оценки"
   },
@@ -100,7 +100,7 @@ const reviews = [
     id: 7,
     name: "Игорь Иванов",
     date: "5 лет",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+    img: "/Rectangle 66.png",
     stars: 5,
     grade: "4,6 24 оценки"
   },
@@ -120,7 +120,7 @@ const stories = [
       comment: "Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там запчасти для моей модели закончились. Я позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне пообещали, что успеют, и не обманули – на следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если будут какие-то проблемы, обращусь к ним же.",
       rating: 5,
       date: "14.12.2020",
-      image: "../../src/assets/LgImgaes/Ellipse 31 (1).png",
+      image: "/Ellipse 31 (1).png",
       manager: "Николай Филатов"
     }
   },
@@ -137,7 +137,7 @@ const stories = [
       comment: "Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там запчасти для моей модели закончились. Я позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне пообещали, что успеют, и не обманули – на следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если будут какие-то проблемы, обращусь к ним же.",
       rating: 4,
       date: "22.01.2021",
-      image: "/src/assets/imagesSamsungs/samsungtopimage/Ellipse 31.png",
+      image: "/Ellipse 31.png",
       manager: "Алексей Смирнов"
     }
   }
@@ -151,7 +151,7 @@ const reviews2 = [
     brand: "Samsung",
     master: "Николай Антоненко",
     date: "19.12.2021",
-    img: "../../src/assets/LgImgaes/фото.png",
+    img: "/LgImgaes/фото.png",
     stars: 5,
   },
   {
@@ -162,7 +162,7 @@ const reviews2 = [
     brand: "Samsung",
     master: "Илья Сахаров",
     date: "11.11.2021",
-    img: "../../src/assets/LgImgaes/фото (2).png",
+    img: "/LgImgaes/фото (2).png",
     stars: 4,
   },
 
@@ -286,7 +286,7 @@ const LgMain = () => {
             </ul>
           </div>
           <div className="navbar-itemlg2">
-            <img className='imgLg' src="../../src/assets/LgImgaes/2108662082.png" alt="LG Logo" />
+            <img className='imgLg' src="/LgImgaes/2108662082.png" alt="LG Logo" />
           </div>
           <div className="navbar-itemlg3">
             <Select className="selectshow2"
@@ -357,19 +357,19 @@ const LgMain = () => {
         <section className="lg-first">
           <div className="mini-lg-cards">
             <div className="msc first">
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Vector-1.png" alt="diagnostic icon" />
+              <img src="/Frame 28.png" alt="diagnostic icon" />
               <span>
                 Бесплатная
                 диагностика
               </span>
             </div>
             <div className="msc second">
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Vector.png" alt="courier icon" />
+              <img src="/Frame 29.png" alt="courier icon" />
               <span>Выезд мастера
                 в течение 1 часа</span>
             </div>
             <div className="msc third">
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Group.png" alt="repair icon" />
+              <img src="/Group.png" alt="repair icon" />
               <span>Ремонт
                 за 1 день</span>
             </div>
@@ -464,7 +464,7 @@ const LgMain = () => {
         </section>
         <section className="Lg-four">
           <div className="smile-kuryera">
-            <img src="/src/assets/LgImgaes/курьер (1).png" alt="smile" />
+            <img src="/LgImgaes/курьер (1).png" alt="smile" />
             <div className="appeal chaqirmoq ">
               <h1>Мы дорожим
                 вашим временем!</h1>
@@ -487,7 +487,7 @@ const LgMain = () => {
               <h4> 9 из 10 продуктов
                 мы чиним за 1 день</h4>
               <div className="lg-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 112.png" alt="img" />
+              <img src="/Rectangle 112.png" alt="img" />
             </div>
             <div className="lg-card">
               <h3>02</h3>
@@ -495,20 +495,20 @@ const LgMain = () => {
                 проходит контроль качества
                 по 26 пунктам</h4>
               <div className="lg-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 113.png" alt="img" />
+              <img src="/Rectangle 113.png" alt="img" />
             </div>
             <div className="lg-card">
               <h3>03</h3>
               <h4>Диагностика 0 грн, даже
                 в случае отказа от ремонта</h4>
               <div className="lg-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 114.png" alt="img" />
+              <img src="/Rectangle 114.png" alt="img" />
             </div>
             <div className="lg-card">
               <h3>04</h3>
               <h4>Наш менеджер будет держать вас в курсевсех этапов работы</h4>
               <div className="lg-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 115.png" alt="img" />
+              <img src="/Rectangle samsung 115.png" alt="img" />
             </div>
           </div>
         </section>
@@ -688,8 +688,8 @@ const LgMain = () => {
           <div className="reviews-item10">
             <div className="item-one10">
               <h2>Отзывы</h2>
-              <img className='image110' src="/src/assets/images/homepage-img/рейтинг.png" alt="Reyting" />
-              <img className='image210' src="/src/assets/images/homepage-img/рейтинг (1).png" />
+              <img className='image110' src="/рейтинг.png" alt="Reyting" />
+              <img className='image210' src="/рейтинг (1).png" />
               <div className="item-son10">
                 <button>ОСТАВИТЬ ОТЗЫВ</button>
                 <span>ЧИТАТЬ ВСЕ ОТЗЫВЫ</span>
@@ -698,7 +698,7 @@ const LgMain = () => {
 
             <div className="item-two10">
               <div className="carousel-wrapper10">
-                <img className='img110' src="/src/assets/LgImgaes/Group.png" />
+                <img className='img110' src="/LgImgaes/Group.png" />
                 <div className="carousel10">
                   <div className="item-box10 active10">
                     <p>{currenttwo.text}</p>
@@ -718,7 +718,7 @@ const LgMain = () => {
                   </div>
 
                   <div className="item-box10 faded10 glow10">
-                    <img className='img110' src="/src/assets/images/homepage-img/Frame 32.png" />
+                    <img className='img110' src="/Frame 32.png" />
                     <p>{faded.text}</p>
                     <div className="linya10"></div>
                     <img className='img210' src={faded.img} alt={faded.name} />
@@ -806,7 +806,7 @@ const LgMain = () => {
       <div className='lg-footer'>
         <span>О платформе</span>
         <span className="second-list">Выбрать сервисный центр</span>
-        <img src="../../src/assets/LgImgaes/2108662082.png"  />
+        <img src="/LgImgaes/2108662082.png"  />
         <span className='second-list'>Оставить отзыв</span>
         <span>Контакты</span>
     </div>
