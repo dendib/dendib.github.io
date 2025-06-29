@@ -13,7 +13,7 @@ const SamsungNavbar = () => {
            </ul>
         </div>
         <div className="navbar-item2">
-          <img src="/src/assets/images/logotips/Rectangle 29-15.png" />
+          <img src="/Rectangle 29-15.png" />
         </div>
         <div className="navbar-item3">
 <Select  className="selectshow2"

@@ -250,19 +250,19 @@ const MainSamsung = () => {
         <section className="samsung-first">
           <div className="mini-samsung-cards">
             <div className="msc first">
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Vector-1.png" />
+              <img src="/Frame 28.png" />
               <span>
                 Бесплатная
                 диагностика
               </span>
             </div>
             <div className="msc second">
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Vector.png" />
+              <img src="/Frame 29.png" />
               <span>Выезд мастера
                 в течение 1 часа</span>
             </div>
             <div className="msc third">
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Group.png" />
+              <img src="/Group.png" />
               <span>Ремонт
                 за 1 день</span>
             </div>
@@ -348,7 +348,7 @@ const MainSamsung = () => {
         </section>
         <section className="samsung-four">
           <div className="smile-kuryera">
-            <img src="/src/assets/imagesSamsungs/samsungtopimage/курьер.png" alt="smile" />
+            <img src="/samsungtopimage/курьер.png" alt="smile" />
             <div className="appeal chaqirmoq ">
               <h1>Мы дорожим
                 вашим временем!</h1>

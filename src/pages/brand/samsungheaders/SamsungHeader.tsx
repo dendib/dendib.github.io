@@ -1,8 +1,8 @@
 import "./SamsungHeader.scss";
 import { useEffect, useState } from "react";
-import img1 from "/samsungtopimage/Rectangle 122.png";
-import img2 from "/samsungtopimage/Rectangle 122.png";
-import img3 from "/samsungtopimage/Rectangle 122.png";
+import img1 from "/Rectangle 122.png";
+import img2 from "/Rectangle 122.png";
+import img3 from "/Rectangle 122.png";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const images = [img1, img2, img3];
