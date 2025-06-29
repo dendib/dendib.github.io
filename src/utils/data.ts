@@ -106,7 +106,7 @@ export const LogoData: Logo[] = [
       idLogo: 21,
     },
     {
-      url: "//лого 1.png",
+      url: "/лого 1.png",
       title: "Bosch",
       idLogo: 22,
     }

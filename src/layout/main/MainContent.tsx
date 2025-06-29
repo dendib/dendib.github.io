@@ -43,14 +43,14 @@ const MainContent = () => {
                   </span>
                 </div>
                 <div className="system_item">
-                  <img className="img2" src="/Vector-1.png" alt="logo" />
+                  <img className="img2" src="/Frame 19.png" alt="logo" />
                   <span>
                     <p>Квалифицированные
                     специалисты</p>
                   </span>
                 </div>
                 <div className="system_item">
-                    <img className="img3" src="/Vector.png" alt="logo" />
+                    <img className="img3" src="/Frame 18.png" alt="logo" />
                   <span>
                     <p>Собственная
                     система рейтинга</p>
