@@ -12,7 +12,7 @@ const reviews = [
     brand: "Samsung",
     master: "Николай Антоненко",
     date: "19.12.2021",
-    img: "src/assets/images/homepage-img/Ellipse 31-1.png",
+    img: "/Ellipse 31-1.png",
     stars: 5,
   },
   {
@@ -23,7 +23,7 @@ const reviews = [
     brand: "Samsung",
     master: "Илья Сахаров",
     date: "11.11.2021",
-    img: "src/assets/images/homepage-img/Ellipse 31.png",
+    img: "/Ellipse 31.png",
     stars: 4,
   },
 
@@ -44,8 +44,8 @@ const Reviews = () => {
       <div className="reviews-item">
         <div className="item-one">
           <h2>Отзывы</h2>
-          <img className='image1' src="/src/assets/images/homepage-img/рейтинг.png" alt="Reyting" />
-          <img className='image2' src="/src/assets/images/homepage-img/рейтинг (1).png"  />
+          <img className='image1' src="/рейтинг.png" alt="Reyting" />
+          <img className='image2' src="/рейтинг (1).png"  />
           <div className="item-son">
             <Buttons text="ОСТАВИТЬ ОТЗЫВ" width='179px'  onClick={() => console.log('Button clicked')} />
             <span>ЧИТАТЬ ВСЕ ОТЗЫВЫ</span>
@@ -54,7 +54,7 @@ const Reviews = () => {
 
         <div className="item-two">
           <div className="carousel-wrapper">
-                <img className='img1' src="/src/assets/images/homepage-img/Frame 32.png"  />
+                <img className='img1' src="/Frame 32.png"  />
             <div className="carousel">
               <div className="item-box active">
                 <p>{current.text}</p>
@@ -74,7 +74,7 @@ const Reviews = () => {
               </div>
 
               <div className="item-box faded glow">
-              <img className='img1' src="/src/assets/images/homepage-img/Frame 32.png"  />
+              <img className='img1' src="/Frame 32.png"  />
                 <p>{faded.text}</p>
                 <div className="linya"></div>
                 <img className='img2' src={faded.img} alt={faded.name} />
