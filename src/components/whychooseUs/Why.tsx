@@ -15,7 +15,7 @@ const Why = () => {
               задачей качественно
             </p>
             <div className="linea"></div>
-            <img src="/src/assets/images/homecard/Ellipse 2.png" alt="img" />
+            <img src="/src/homecard/Ellipse 2.png" alt="img" />
             </div>
           </div>
           <div className="card">
@@ -26,7 +26,7 @@ const Why = () => {
             Только проверенные сервисные центры, высококлассные специалисты, официальные поставщики и лицензионное ПО
             </p>
             <div className="linea"></div>
-            <img src="/src/assets/images/homecard/Ellipse 1.png" alt="img" />
+            <img src="/src/homecard/Ellipse 1.png" alt="img" />
             </div>
           </div>
           <div className="card">
@@ -38,7 +38,7 @@ const Why = () => {
               основании отзывов от реальных клиентов
             </p>
             <div className="linea"></div>
-            <img src="/src/assets/images/homecard/Ellipse 2-1.png" alt="img" />
+            <img src="/src/homecard/Ellipse 2-1.png" alt="img" />
           </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ const Why = () => {
         <div className="contain-box">
           <div className="item-left">
 <div className="item-left-one">
-<img src="/src/assets/images/homecard/Rectangle 115.png" alt="photo" />
+<img src="src/homecard/Rectangle 115.png" alt="photo" />
 <div className="div1"></div>
 </div>
 <div className="item-left-two">
@@ -56,7 +56,7 @@ const Why = () => {
 <div className="div3"> </div>
 </div>
 <div className="image">
-<img src="/src/assets/images/homecard/Rectangle 116.png" alt="photo" />
+<img src="src/homecard/Rectangle 116.png" alt="photo" />
 </div>
           </div>
           <div className="item-right">
