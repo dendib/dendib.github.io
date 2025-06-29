@@ -22,7 +22,7 @@ const SectionOne = () => {
             <h5>Не нагревается</h5>
            </div>
            <div className="charch">
-            <img src="/иконка (1).png" />
+            <img src="/bosch ikonka.png" />
             <div className="charch-item">
               <span>74%</span>
               <div className="the-charch"></div>
@@ -31,7 +31,7 @@ const SectionOne = () => {
             греет частично</h5>
            </div>
            <div className="charch">
-            <img src="/иконка (2).png" />
+            <img src="/иконка bosch(1).png" />
             <div className="charch-item">
               <span>85%</span>
               <div className="the-charch"></div>

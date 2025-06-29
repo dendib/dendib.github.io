@@ -4,7 +4,7 @@ const BoschSection = () => {
   return (
     <div className="bosch-section2">
         <div className="bosch-dont-choose">
-             <img src="/src/assets/imagesBosch/Mockup 1.png"  />
+             <img src="/Mockup 1.png"  />
              <div className="bosch-section2-right">
                  <h2>Не нашли свою поломку?</h2>
                  <p>Наши специалисты бесплатно Вас проконсультируют
