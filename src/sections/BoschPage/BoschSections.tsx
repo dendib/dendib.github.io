@@ -26,7 +26,7 @@ const Bosch = () => {
             </ul>
           </div>
           <div className="navbar-item2">
-            <img className={window.innerWidth == 370 ? styles["imagesBosch-for-phone"] : styles.imagesBosch} src="/src/assets/imagesBosch/лого 1.png" />
+            <img className={window.innerWidth == 370 ? styles["imagesBosch-for-phone"] : styles.imagesBosch} src="/лого 1.png" />
           </div>
           <div className="navbar-item3">
             <Select className="selectshow"
@@ -69,30 +69,30 @@ const Bosch = () => {
         </div>
         <div className="fon-bosch-item2">
           <div className="steps">
-          <img src="/src/assets/imagesBosch/Vector.png"  />
+          <img src="/Vector.png"  />
 
             <span>Бесплатная
               диагностика</span>
           </div>
           <div className="steps">
-          <img src="/src/assets/imagesBosch/Vector-1.png"  />
+          <img src="/Vector-1.png"  />
             <span>Бесплатный
             выезд мастера
           </span></div>
           <div className="steps">
-            <img src="/src/assets/imagesBosch/Frame 31.png"  /><span>Ремонт
+            <img src="/Frame 31.png"  /><span>Ремонт
             за 1 день
           </span></div>
           <div className="steps">
-          <img src="/src/assets/imagesBosch/Vector-3.png"  /><span>Гарантия
+          <img src="/Vector-3.png"  /><span>Гарантия
           от 365 дней
           </span></div>
           <div className="steps">
-            <img src="/src/assets/imagesBosch/Frame 45.png"  /><span>Опыт мастеров
+            <img src="/Frame 45.png"  /><span>Опыт мастеров
             более 10 лет
           </span></div>
           <div className="steps">
-          <img src="/src/assets/imagesBosch/Vector-4.png"  /><span>Персональный
+          <img src="/Vector-4.png"  /><span>Персональный
           менеджер
           </span></div>
         </div>

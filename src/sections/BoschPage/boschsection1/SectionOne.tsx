@@ -6,7 +6,7 @@ const SectionOne = () => {
         <p>Что бы ни произошло с Вашей техникой мы всегда постараемся найти самое оптимальное решение для восстановления её работоспособности и внешнего вида, обслужим и осуществим настройку</p>
         <div className="charchsBosch">
            <div className="charch">
-            <img src="/src/assets/imagesBosch/иконка@2x.png" />
+            <img src="/иконка@2x.png" />
             <div className="charch-item">
               <span>84%</span>
               <div className="the-charch"></div>
@@ -14,7 +14,7 @@ const SectionOne = () => {
             <h5>Не включается</h5>
            </div>
            <div className="charch">
-            <img src="/src/assets/imagesBosch/иконка.png" />
+            <img src="/иконка.png" />
             <div className="charch-item charch1">
               <span>80%</span>
               <div className="the-charch"></div>
@@ -22,7 +22,7 @@ const SectionOne = () => {
             <h5>Не нагревается</h5>
            </div>
            <div className="charch">
-            <img src="/src/assets/imagesBosch/иконка (1).png" />
+            <img src="/иконка (1).png" />
             <div className="charch-item">
               <span>74%</span>
               <div className="the-charch"></div>
@@ -31,7 +31,7 @@ const SectionOne = () => {
             греет частично</h5>
            </div>
            <div className="charch">
-            <img src="/src/assets/imagesBosch/иконка (2).png" />
+            <img src="/иконка (2).png" />
             <div className="charch-item">
               <span>85%</span>
               <div className="the-charch"></div>
@@ -39,7 +39,7 @@ const SectionOne = () => {
             <h5>Перегревается</h5>
            </div>
            <div className="charch">
-            <img src="/src/assets/imagesBosch/иконка (3).png" />
+            <img src="/иконка (3).png" />
             <div className="charch-item">
               <span>76%</span>
               <div className="the-charch"></div>
@@ -48,7 +48,7 @@ const SectionOne = () => {
             посторонний запах</h5>
            </div>
            <div className="charch">
-            <img src="/src/assets/imagesBosch/иконка (4).png" />
+            <img src="/иконка (4).png" />
             <div className="charch-item">
               <span>87%</span>
               <div className="the-charch"></div>

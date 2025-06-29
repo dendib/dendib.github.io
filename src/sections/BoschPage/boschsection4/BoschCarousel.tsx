@@ -7,7 +7,7 @@ const reviews = [
       id: 1,
       name: "Антон Грисевич",
       date: "7 лет",
-      img: "/src/assets/LgImgaes/Rectangle 66 (2).png",
+      img: "/Rectangle 66 (2).png",
       stars: 5,
       grade: "4,6 24 оценки"
     },
@@ -15,7 +15,7 @@ const reviews = [
       id: 2,
       name: "Павел Матухно",
       date: "3 года",
-      img: "/src/assets/LgImgaes/Rectangle 66 (3).png",
+      img: "/Rectangle 66 (3).png",
       stars: 4,
       grade: "4,6 25 оценки"
     },
@@ -23,7 +23,7 @@ const reviews = [
       id: 3,
       name: "ВладимЧик Повелецкий",
       date: "1 год",
-      img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66 (1).png",
+      img: "/Rectangle 66 (1).png",
       stars: 4,
       grade: "4,1 24 оценки"
     },
@@ -31,7 +31,7 @@ const reviews = [
       id: 5,
       name: "Игорь Иванов",
       date: "5 лет",
-      img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+      img: "/Rectangle 66.png",
       stars: 5,
       grade: "4,6 24 оценки"
     },
@@ -39,7 +39,7 @@ const reviews = [
       id: 6,
       name: "Игорь Иванов",
       date: "5 лет",
-      img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+      img: "/Rectangle 66.png",
       stars: 5,
       grade: "4,6 24 оценки"
     },
@@ -47,7 +47,7 @@ const reviews = [
       id: 7,
       name: "Игорь Иванов",
       date: "5 лет",
-      img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+      img: "/Rectangle 66.png",
       stars: 5,
       grade: "4,6 24 оценки"
     },
