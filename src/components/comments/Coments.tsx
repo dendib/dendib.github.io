@@ -40,13 +40,13 @@ const Coments = () => {
         <div className="comment">
           <div className="question">
             <div className="box-img">
-            <img src="/src/assets/images/homecard/Group 32.png" alt="photo" />
+            <img src="/Group 32.png" alt="photo" />
             </div>
             <p>Что делать, если состояние устройства после ремонта меня не устраивает?</p>
           </div>
           <div className="answer">
              <div className="box-img-answer">
-            <img src="/src/assets/images/homecard/Group 33.png" alt="photo" />
+            <img src="/Group 33.png" alt="photo" />
              </div>
             <p>
             В этом случае вам не следует подписывать Акт приема-передачи, а сразу уведомить представителя сервисного центра о выявленном несоответствии состояния техники условиям Договора или Акту приема-передачи. Например, вы 
@@ -57,7 +57,7 @@ const Coments = () => {
             {questions.map((q, index) => (
             <div key={index} className="question2">
             <div className="box-img">
-              <img src="/src/assets/images/homecard/Group 32.png" alt="f" />
+              <img src="/Group 32.png" alt="f" />
               </div>
               <p>{q}</p>
             </div>
@@ -65,7 +65,7 @@ const Coments = () => {
         </div>
 
         <div className="give-question-button">
-          <Buttons text="Задать вопрос" onClick={() => showModal}>
+          <Buttons text="Задать вопрос" onClick={ showModal}>
           </Buttons>
           <Modal
             title="Задайте свой вопрос"
