@@ -1,4 +1,4 @@
-import "./assets/styles/App.scss"
+import "/src/assets/styles/App.scss"
 import DefaultLayout from "./layout/layout/DefaultLayout.tsx";
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ToBrandSamsung from "./pages/brand/ToBrandSamsung.tsx";
