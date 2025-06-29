@@ -14,7 +14,7 @@ const reviews2 = [
     brand: "Samsung",
     master: "Николай Антоненко",
     date: "19.12.2021",
-    img: "../../src/assets/images/homepage-img/Ellipse 31-1.png",
+    img: "/Ellipse 31-1.png",
     stars: 5,
   },
   {
@@ -25,7 +25,7 @@ const reviews2 = [
     brand: "Samsung",
     master: "Илья Сахаров",
     date: "11.11.2021",
-    img: "../../src/assets/images/homepage-img/Ellipse 31.png",
+    img: "/Ellipse 31.png",
     stars: 4,
   },
 
@@ -44,7 +44,7 @@ const stories = [
       comment: "Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там запчасти для моей модели закончились. Я позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне пообещали, что успеют, и не обманули – на следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если будут какие-то проблемы, обращусь к ним же.",
       rating: 5,
       date: "14.12.2020",
-      image: "/src/assets/imagesSamsungs/samsungtopimage/Ellipse 31.png",
+      image: "/Ellipse 31.png",
       manager: "Николай Филатов"
     }
   },
@@ -61,7 +61,7 @@ const stories = [
       comment: "Я отдавал в ремонт телефон Samsung. До этого сервиса обратилась в другой, а там запчасти для моей модели закончились. Я позвонил сюда, уточнил, попросил, чтобы за сутки все точно сделали. Мне пообещали, что успеют, и не обманули – на следующий день ближе к вечеру телефон был готов. Дали гарантию, так что если будут какие-то проблемы, обращусь к ним же.",
       rating: 4,
       date: "22.01.2021",
-      image: "/src/assets/imagesSamsungs/samsungtopimage/Ellipse 31.png",
+      image: "/Ellipse 31.png",
       manager: "Алексей Смирнов"
     }
   }
@@ -71,7 +71,7 @@ const reviews = [
     id: 1,
     name: "Антон Грисевич",
     date: "7 лет",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+    img: "/Rectangle 66.png",
     stars: 5,
     grade: "4,6 24 оценки"
   },
@@ -79,7 +79,7 @@ const reviews = [
     id: 2,
     name: "Павел Матухно",
     date: "3 года",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66 (1).png",
+    img: "/Rectangle 66 (1).png",
     stars: 4,
     grade: "4,6 25 оценки"
   },
@@ -87,7 +87,7 @@ const reviews = [
     id: 3,
     name: "Владимир Повелецкий",
     date: "1 год",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66 (1).png",
+    img: "/Rectangle 66 (1).png",
     stars: 4,
     grade: "4,1 24 оценки"
   },
@@ -95,7 +95,7 @@ const reviews = [
     id: 4,
     name: "Игорь Иванов",
     date: "5 лет",
-    img: "/src/assets/imagesSamsungs/samsungtopimage/Rectangle 66.png",
+    img: "/Rectangle 66.png",
     stars: 5,
     grade: "4,6 24 оценки"
   },
@@ -192,51 +192,51 @@ const MainSamsung = () => {
   ];
   const texnalogyc = [
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-vacuum-cleaners-vc15k4136-vc15k4136vl-ev-rperspectiveorange-92236560 1.png",
+      img: "/samsungcardimg/ru-vacuum-cleaners-vc15k4136-vc15k4136vl-ev-rperspectiveorange-92236560 1.png",
       title: "Пелесос",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/good_img_a67e9e6d-f0c0-11e9-80c7-005056840c70_600_thumbnail 1.png",
+      img: "/samsungcardimg/good_img_a67e9e6d-f0c0-11e9-80c7-005056840c70_600_thumbnail 1.png",
       title: "Парогенератор"
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/13hq_thumbnail 1.png",
+      img: "/samsungcardimg/13hq_thumbnail 1.png",
       title: "Гладильна система",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-front-loading-washer-ww10t554daws1-ww90t554cax-lp-362691647 1.png",
+      img: "/samsungcardimg/ru-front-loading-washer-ww10t554daws1-ww90t554cax-lp-362691647 1.png",
       title: "Стиральная машина",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-dryer-dv90t5240aws3-dv90t5240at-lp-380686879 1.png",
+      img: "/samsungcardimg/ru-dryer-dv90t5240aws3-dv90t5240at-lp-380686879 1.png",
       title: "Сушильная машина",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-dw4000rm-dishwasher-with-less-noise-44db-dw50r4050fs-wt-468108974 1.png",
+      img: "/samsungcardimg/ru-dw4000rm-dishwasher-with-less-noise-44db-dw50r4050fs-wt-468108974 1.png",
       title: "Посудомоечная машина",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-rb3000a-bottom-freezer-refrigerator-with-space-efficiency-rb33a3440sa-wt-412254345 1.png",
+      img: "/samsungcardimg/ru-rb3000a-bottom-freezer-refrigerator-with-space-efficiency-rb33a3440sa-wt-412254345 1.png",
       title: "Холодильник",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-nv68r3541rs-nv68r3541rs-wt-frontsilver-181088503 1.png",
+      img: "/samsungcardimg/ru-nv68r3541rs-nv68r3541rs-wt-frontsilver-181088503 1.png",
       title: "Духовой шкаф",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-na64h3030bswt-na64h3030bs-wt-frontsilver-187009129 1.png",
+      img: "/samsungcardimg/ru-na64h3030bswt-na64h3030bs-wt-frontsilver-187009129 1.png",
       title: "Варочная панель",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-rb3000a-bottom-freezer-refrigerator-with-space-efficiency-rb33a3440sa-wt-412254345 1.png",
+      img: "/samsungcardimg/ru-rb3000a-bottom-freezer-refrigerator-with-space-efficiency-rb33a3440sa-wt-412254345 1.png",
       title: "Кухонная вытяжка",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-mq7000a-389388-ms20a7013at-bw-447035962 1.png ",
+      img: "/samsungcardimg/ru-mq7000a-389388-ms20a7013at-bw-447035962 1.png ",
       title: "Микроволновая печь",
     },
     {
-      img: "../../src/assets/imagesSamsungs/samsungcardimg/ru-wall-mount-ar5000h-ar24aqhqdurner-404693126 1.png",
+      img: "/samsungcardimg/ru-wall-mount-ar5000h-ar24aqhqdurner-404693126 1.png",
       title: "Кондиционер"
     }
   ]
@@ -348,7 +348,7 @@ const MainSamsung = () => {
         </section>
         <section className="samsung-four">
           <div className="smile-kuryera">
-            <img src="/samsungtopimage/курьер.png" alt="smile" />
+            <img src="/курьер.png" alt="smile" />
             <div className="appeal chaqirmoq ">
               <h1>Мы дорожим
                 вашим временем!</h1>
@@ -374,7 +374,7 @@ const MainSamsung = () => {
                 мы чиним за 1 день</h4>
 
               <div className="samsung-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 112.png" alt="img" />
+              <img src="/Rectangle 112.png" alt="img" />
             </div>
             <div className="samsung-card">
               <h3>02</h3>
@@ -382,20 +382,20 @@ const MainSamsung = () => {
                 проходит контроль качества
                 по 26 пунктам</h4>
               <div className="samsung-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 113.png" alt="img" />
+              <img src="/Rectangle 113.png" alt="img" />
             </div>
             <div className="samsung-card">
               <h3>03</h3>
               <h4>Диагностика 0 грн, даже
                 в случае отказа от ремонта</h4>
               <div className="samsung-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 114.png" alt="img" />
+              <img src="/Rectangle 114.png" alt="img" />
             </div>
             <div className="samsung-card">
               <h3>04</h3>
               <h4>Наш менеджер будет держать вас в курсевсех этапов работы</h4>
               <div className="samsung-linea"></div>
-              <img src="/src/assets/imagesSamsungs/samsungtopimage/Rectangle 115.png" alt="img" />
+              <img src="/Rectangle samsung 115.png" alt="img" />
             </div>
           </div>
         </section>
@@ -573,8 +573,8 @@ const MainSamsung = () => {
   <div className="reviews-item10">
     <div className="item-one10">
       <h2>Отзывы</h2>
-      <img className='image110' src="/src/assets/images/homepage-img/рейтинг.png" alt="Reyting" />
-      <img className='image210' src="/src/assets/images/homepage-img/рейтинг (1).png" />
+      <img className='image110' src="/рейтинг.png" alt="Reyting" />
+      <img className='image210' src="/рейтинг (1).png" />
       <div className="item-son10">
         <button>ОСТАВИТЬ ОТЗЫВ</button>
         <span>ЧИТАТЬ ВСЕ ОТЗЫВЫ</span>
@@ -583,7 +583,7 @@ const MainSamsung = () => {
 
     <div className="item-two10">
       <div className="carousel-wrapper10">
-        <img className='img110' src="/src/assets/images/homepage-img/Frame 32.png" />
+        <img className='img110' src="/Frame 32.png" />
         <div className="carousel10">
           <div className="item-box10 active10">
             <p>{currenttwo.text}</p>
@@ -603,7 +603,7 @@ const MainSamsung = () => {
           </div>
 
           <div className="item-box10 faded10 glow10">
-            <img className='img110' src="/src/assets/images/homepage-img/Frame 32.png" />
+            <img className='img110' src="/Frame 32.png" />
             <p>{faded.text}</p>
             <div className="linya10"></div>
             <img className='img210' src={faded.img} alt={faded.name} />
@@ -691,7 +691,7 @@ const MainSamsung = () => {
       <div className='samsung-footer'>
         <span>О платформе</span>
         <span className="second-list">Выбрать сервисный центр</span>
-<img src="../../src/assets/imagesSamsungs/samsungtopimage/samsung_logo_PNG6 1.png"/>
+<img src="/samsung_logo_PNG6 1.png"/>
         <span className='second-list'>Оставить отзыв</span>
         <span>Контакты</span>
     </div>
