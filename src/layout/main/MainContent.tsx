@@ -26,7 +26,7 @@ const MainContent = () => {
             <div className="main-content-title">
               <div className="title-h1">
                   <h1 className="main-content-title-h1">
-                  Сервисные центры техники в Киеве22222
+                  Сервисные центры техники в Киеве
                 </h1>
               </div>
               <div className="subtitle-box">
@@ -36,21 +36,21 @@ const MainContent = () => {
               </div>
               <div className="system_items">
                 <div className="system_item">
-                  <img className="img1" src="src/assets/images/logotips/Frame 20.png" alt="logo" />
+                  <img className="img1" src="/Frame 20.png" alt="logo" />
                   <span>
                     <p>100% проверенные
                     сервисные центры</p>
                   </span>
                 </div>
                 <div className="system_item">
-                  <img className="img2" src="src/assets/images/logotips/Vector-1.png" alt="logo" />
+                  <img className="img2" src="/Vector-1.png" alt="logo" />
                   <span>
                     <p>Квалифицированные
                     специалисты</p>
                   </span>
                 </div>
                 <div className="system_item">
-                    <img className="img3" src="src/assets/images/logotips/Vector.png" alt="logo" />
+                    <img className="img3" src="/Vector.png" alt="logo" />
                   <span>
                     <p>Собственная
                     система рейтинга</p>

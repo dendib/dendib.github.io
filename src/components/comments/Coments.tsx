@@ -5,7 +5,7 @@ import Buttons from '../button/Buttons';
 const Coments = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [inputValue, setInputValue] = useState("");
-  const [questions, setQuestion] = useState([]);  
+  const [questions, setQuestion] = useState<string[]>([]);  
 
   const showModal = () => {
     setIsModalOpen(true);
@@ -15,6 +15,7 @@ const Coments = () => {
     if (inputValue.trim() !== "") {
       const updatedQuestions = [...questions, inputValue]; 
      localStorage.setItem("savedQuestions", JSON.stringify(updatedQuestions));
+     setQuestion(updatedQuestions);
       setIsModalOpen(false);
       setInputValue("");
     }
@@ -28,7 +29,7 @@ const Coments = () => {
     if (saved) {
       setQuestion(JSON.parse(saved));
     }
-  }, []);
+  }, [questions]);
   return (
     <div className='comments'>
       <div className="comments-items">
@@ -46,7 +47,7 @@ const Coments = () => {
           </div>
           <div className="answer">
              <div className="box-img-answer">
-            <img src="/Group 33.png" alt="photo" />
+            <img src="Group 33.png" alt="photo" />
              </div>
             <p>
             В этом случае вам не следует подписывать Акт приема-передачи, а сразу уведомить представителя сервисного центра о выявленном несоответствии состояния техники условиям Договора или Акту приема-передачи. Например, вы 
@@ -65,7 +66,7 @@ const Coments = () => {
         </div>
 
         <div className="give-question-button">
-          <Buttons text="Задать вопрос" onClick={ showModal}>
+          <Buttons text="Задать вопрос" onClick={showModal}>
           </Buttons>
           <Modal
             title="Задайте свой вопрос"

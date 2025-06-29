@@ -48,7 +48,7 @@ const Why = () => {
         <div className="contain-box">
           <div className="item-left">
 <div className="item-left-one">
-<img src="/src/assets/images/homecard/Rectangle 115.png" alt="photo" />
+<img src="/Rectangle 115.png" alt="photo" />
 <div className="div1"></div>
 </div>
 <div className="item-left-two">
@@ -56,7 +56,7 @@ const Why = () => {
 <div className="div3"> </div>
 </div>
 <div className="image">
-<img src="/src/assets/images/homecard/Rectangle 116.png" alt="photo" />
+<img src="Rectangle 116.png" alt="photo" />
 </div>
           </div>
           <div className="item-right">
