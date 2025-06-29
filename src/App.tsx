@@ -1,6 +1,6 @@
 import "/src/assets/styles/App.scss"
 import DefaultLayout from "./layout/layout/DefaultLayout.tsx";
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
+import {  HashRouter, Route, Routes } from 'react-router-dom'
 import ToBrandSamsung from "./pages/brand/ToBrandSamsung.tsx";
 import ToBrandLg from "./pages/brand/ToBrandLg.tsx";
 import ToBrandBosch from "./pages/brand/ToBrandBosch.tsx";
