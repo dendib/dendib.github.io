@@ -8,7 +8,7 @@ const BoschSectioSix = () => {
 
     return (
         <div className="bosch-section-six">
-            <img src="/src/assets/imagesBosch/imagesBoschSEction3/background_transparent_01 1.png" alt="dedmestniy" />
+            <img src="/background_transparent_01 1.png" alt="dedmestniy" />
             <div className="bosch-section-six-box">
                 <div className="box1">
                     <h1>Онлайн заявка

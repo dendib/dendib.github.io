@@ -6,12 +6,12 @@ const BoschSectionSeven = () => {
      <div className="bosch-element">
      <div className="bosch-section-seven-left">
            <div className="item-boschone">
-             <img src="/src/assets/images/icon/Frame 49.png"  />
+             <img src="/Frame 49.png"  />
              <h3>Гарантия низкой цены</h3>
              <p>Наш прайс составлен на основе средних рыночных цен, потому что мы закупаем запчасти напрямую у производителей</p>
            </div>
            <div className="item-boschone">
-             <img src="/src/assets/images/icon/Frame 49.png"  />
+             <img src="/Frame 49.png"  />
              <h3>Бесплатный выезд мастера</h3>
              <p>Специалист приедет на вызов в течение 40 минут, после оформления заявки. Выезд будет бесплатным, даже если вы откажетесь
              от ремонта!</p> 
@@ -19,13 +19,13 @@ const BoschSectionSeven = () => {
         </div>
         <div className="bosch-section-seven-center">
            <div className="item-boschone FIRST">
-             <img src="/src/assets/images/icon/Frame 51.png"  />
+             <img src="/Frame 51.png"  />
              <h3>Бесплатный выезд мастера</h3>
              <p>Специалист приедет на вызов в течение 40 минут, после оформления заявки. Выезд будет бесплатным, даже если вы откажетесь
              от ремонта!</p> 
            </div>
            <div className="item-boschone ">
-             <img src="/src/assets/images/icon/Frame 50.png"  />
+             <img src="/Frame 50.png"  />
              <h3>Гарантия низкой цены</h3>
              <p>Наш прайс составлен на основе средних рыночных цен, потому что мы закупаем запчасти напрямую у производителей</p>
            </div>

@@ -8,7 +8,7 @@ const BoschSection3 = () => {
                 <div className="step-bosch first-comand">
                         <span className="spans">01</span>
                         <img src="/Rectangle 212.png" />
-                        <img className="images-bosch1" src="/иконка.png" />
+                        <img className="images-bosch1" src="/иконкаbosch.png" />
                         <span>Диагностика</span>
                         <h5>Техник тщательно изучает ваш
                             гаджет и тестирует на современном оборудовании</h5>
@@ -35,14 +35,14 @@ const BoschSection3 = () => {
                         <h5>Вы можете оставить заявку
                             или позвонить сомстоятельно
                             для подробной консультации</h5>
-                        <img  className="images-bosch2" src="/иконка (3).png" />
+                        <img  className="images-bosch2" src="/иконка bosch(3).png" />
                         <img  className="arrow-left" src="/Rectangle 212.png" />
                         <span className="spans">04</span>
                     </div>
                     <div className="step-bosch first-comand">
                         <span className="spans">05</span>
                         <img src="/Rectangle 212.png" />
-                        <img className="images-bosch1" src="/иконка (4).png" />
+                        <img className="images-bosch1" src="/иконкаbosch (4).png" />
                         <span>Гарантия</span>
                         <h5>После того, как вы проверите
                             устройство, мы выписываем
@@ -54,7 +54,7 @@ const BoschSection3 = () => {
                         <h5>Вы можете оставить заявку
                             или позвонить сомстоятельно
                             для подробной консультации</h5>
-                        <img className="images-bosch2" src="/иконка (5).png" />
+                        <img className="images-bosch2" src="/иконкаbosch (5).png" />
                         <img className="arrow-left" src="/Rectangle 212.png" />
                         <span className="spans">06</span>
                     </div>

@@ -11,7 +11,7 @@ const reviews2 = [
       brand: "Samsung",
       master: "Николай Антоненко",
       date: "19.12.2021",
-      img: "../../src/assets/LgImgaes/фото.png",
+      img: "/фото.png",
       stars: 5,
     },
     {
@@ -22,7 +22,7 @@ const reviews2 = [
       brand: "Samsung",
       master: "Илья Сахаров",
       date: "11.11.2021",
-      img: "../../src/assets/LgImgaes/фото (2).png",
+      img: "/фото (2).png",
       stars: 4,
     },
   
@@ -40,8 +40,8 @@ const BoschSectionEgith = () => {
           <div className="reviews-item10">
             <div className="item-one10">
               <h2>Отзывы</h2>
-              <img className='image110' src="/src/assets/images/homepage-img/рейтинг.png" alt="Reyting" />
-              <img className='image210' src="/src/assets/images/homepage-img/рейтинг (1).png" />
+              <img className='image110' src="/рейтинг.png" alt="Reyting" />
+              <img className='image210' src="/рейтинг (1).png" />
               <div className="item-son10">
                 <button className={styles["button-blue-bosch"]}>Оставить отзыв</button>
                 <span>ЧИТАТЬ ВСЕ ОТЗЫВЫ</span>
@@ -50,7 +50,7 @@ const BoschSectionEgith = () => {
 
             <div className="item-two10">
               <div className="carousel-wrapper10">
-                <img className='img110' src="/src/assets/images/icon/Frame 32 (1).png" />
+                <img className='img110' src="/Frame 32 (1).png" />
                 <div className="carousel10">
                   <div className="item-box10 active10">
                     <p>{currenttwo.text}</p>
@@ -70,7 +70,7 @@ const BoschSectionEgith = () => {
                   </div>
 
                   <div className="item-box10 faded10 glow10">
-                    <img className='img110' src="/src/assets/images/icon/Frame 32 (1).png" />
+                    <img className='img110' src="/Frame 32 (1).png" />
                     <p>{faded.text}</p>
                     <div className="linya10"></div>
                     <img className='img210' src={faded.img} alt={faded.name} />

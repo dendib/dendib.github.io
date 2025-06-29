@@ -29,7 +29,7 @@ const Coments = () => {
     if (saved) {
       setQuestion(JSON.parse(saved));
     }
-  }, [questions]);
+  }, []);
   return (
     <div className='comments'>
       <div className="comments-items">

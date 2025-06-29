@@ -32,7 +32,7 @@ const BoschTitle = () => {
       <h1>Цены на ремонт духового шкафа Bosch</h1>
       <p>Окончательная стоимость зависит от сложности выполняемых работ, состояния и конструктивных особенностей духового шкафа</p>
       <div className="cost-bosch">
-        <img src="../../src/assets/imagesBosch/imagesBoschSEction3/MCIM02208346_Global_Cooking_Baking_the_perfect_combination_3200x1240 1.png" alt="Bosch Oven" />
+        <img src="/MCIM02208346_Global_Cooking_Baking_the_perfect_combination_3200x1240 1.png" alt="Bosch Oven" />
         <div className="cost-bosch-right">
           <div className="cost-bosch-right-top">
             <h3>Наименование услуги</h3>
