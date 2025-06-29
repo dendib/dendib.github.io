@@ -15,7 +15,7 @@ const Why = () => {
               задачей качественно
             </p>
             <div className="linea"></div>
-            <img src="/public/Ellipse 2.png" alt="img" />
+            <img src="/Ellipse 2.png" alt="img" />
             </div>
           </div>
           <div className="card">
@@ -26,7 +26,7 @@ const Why = () => {
             Только проверенные сервисные центры, высококлассные специалисты, официальные поставщики и лицензионное ПО
             </p>
             <div className="linea"></div>
-            <img src="/public/Ellipse 1.png" alt="img" />
+            <img src="/Ellipse 1.png" alt="img" />
             </div>
           </div>
           <div className="card">
@@ -38,7 +38,7 @@ const Why = () => {
               основании отзывов от реальных клиентов
             </p>
             <div className="linea"></div>
-            <img src="/public/Ellipse 2-1.png" alt="img" />
+            <img src="/Ellipse 2-1.png" alt="img" />
           </div>
             </div>
         </div>
